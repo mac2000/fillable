@@ -1,0 +1,25 @@
+{
+    "name": "mac/fillable",
+    "description": "Fill object from array",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marchenko Alexandr",
+            "email": "marchenko.alexandr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "mac\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mac\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
