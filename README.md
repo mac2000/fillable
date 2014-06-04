@@ -4,16 +4,20 @@ Usage example
     <?php
     require_once 'vendor/autoload.php';
 
+    use mac\Fillable;
+
     class User
     {
         use Fillable;
 
-        $username;
-        $password;
-        $remember;
+        public $username;
+        protected $password;
+        private $remember;
     }
 
-    $user = User::createFrom($_REQUEST);
+    $user = User::createFrom(['username' => 'hello', 'password' => 'world', 'remember' => true]);
+
+    print_r($user);
 
     //$user = new User();
     //$user->fill($_REQUEST);
