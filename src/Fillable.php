@@ -1,5 +1,5 @@
 <?php
-namespace mac;
+namespace mac\fillable;
 
 use ReflectionClass;
 use ReflectionProperty;

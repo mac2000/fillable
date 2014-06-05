@@ -4,7 +4,7 @@ Usage example
     <?php
     require_once 'vendor/autoload.php';
 
-    use mac\Fillable;
+    use mac\fillable\Fillable;
 
     class User
     {

@@ -1,5 +1,5 @@
 <?php
-namespace mac\Tests;
+namespace mac\fillable\Tests;
 
 use PHPUnit_Framework_TestCase;
 

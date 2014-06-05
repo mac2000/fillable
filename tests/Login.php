@@ -1,7 +1,7 @@
 <?php
-namespace mac\Tests;
+namespace mac\fillable\Tests;
 
-use mac\Fillable;
+use mac\fillable\Fillable;
 
 class Login
 {

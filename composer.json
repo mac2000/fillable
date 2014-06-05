@@ -11,12 +11,12 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "mac\\": "src"
+            "mac\\fillable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "mac\\Tests\\": "tests"
+            "mac\\fillable\\Tests\\": "tests"
         }
     },
     "require": {
